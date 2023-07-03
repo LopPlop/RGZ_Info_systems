@@ -111,7 +111,7 @@ namespace RGZ_Info_systems
                 { "<MM>", DateTime.Now.Date.Month.ToString() },
                 { "<YY>", DateTime.Now.Date.Year.ToString() },
                 { "<PEOPLE_COUNT>", trainingController.GetPassedPeopleYY().Count.ToString() },
-                { "<PEOPLE_LIST>", trainingController.GetPassedPeopleYY().ToString() }
+                { "<PEOPLE_LIST>",string.Join(Environment.NewLine, trainingController.GetPassedPeopleYY()) }
             };
 
             wordHandler.Process(dictionary);
@@ -127,7 +127,7 @@ namespace RGZ_Info_systems
                 { "<MM>", DateTime.Now.Date.Month.ToString() },
                 { "<YY>", DateTime.Now.Date.Year.ToString() },
                 { "<PEOPLE_COUNT>", trainingController.GetPassedPeople().Count.ToString() },
-                { "<PEOPLE_LIST>", trainingController.GetPassedPeople().ToString() }
+                { "<PEOPLE_LIST>", string.Join(Environment.NewLine, trainingController.GetPassedPeople()) }
             };
 
             wordHandler.Process(dictionary);

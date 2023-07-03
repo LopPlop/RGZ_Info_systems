@@ -73,6 +73,7 @@
             // 
             // SelectAdd
             // 
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(288, 137);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);

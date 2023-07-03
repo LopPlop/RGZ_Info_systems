@@ -36,9 +36,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(224, 265);
+            this.button2.Location = new System.Drawing.Point(766, 256);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(110, 41);
             this.button2.TabIndex = 5;
             this.button2.Text = "Отмена";
             this.button2.UseVisualStyleBackColor = true;
@@ -46,9 +46,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(84, 265);
+            this.button1.Location = new System.Drawing.Point(384, 256);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(104, 41);
             this.button1.TabIndex = 4;
             this.button1.Text = "Удалить";
             this.button1.UseVisualStyleBackColor = true;
@@ -67,6 +67,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1276, 318);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);

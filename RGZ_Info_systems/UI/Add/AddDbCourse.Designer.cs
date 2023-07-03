@@ -108,11 +108,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(92, 80);
+            this.label4.Location = new System.Drawing.Point(39, 80);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 13);
+            this.label4.Size = new System.Drawing.Size(92, 13);
             this.label4.TabIndex = 16;
-            this.label4.Text = "Отдел";
+            this.label4.Text = "Предназначение";
             // 
             // label3
             // 
@@ -144,6 +144,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(321, 255);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.comboBox2);

@@ -48,9 +48,10 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
             this.button1.Location = new System.Drawing.Point(36, 41);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 23);
+            this.button1.Size = new System.Drawing.Size(145, 55);
             this.button1.TabIndex = 0;
             this.button1.Text = "Добавить данные";
             this.button1.UseVisualStyleBackColor = true;
@@ -58,9 +59,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(200, 41);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.button2.Location = new System.Drawing.Point(36, 116);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(120, 23);
+            this.button2.Size = new System.Drawing.Size(147, 54);
             this.button2.TabIndex = 1;
             this.button2.Text = "Изменить данные";
             this.button2.UseVisualStyleBackColor = true;
@@ -68,9 +70,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(364, 41);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.button3.Location = new System.Drawing.Point(36, 191);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(120, 23);
+            this.button3.Size = new System.Drawing.Size(145, 60);
             this.button3.TabIndex = 2;
             this.button3.Text = "Удалить данные";
             this.button3.UseVisualStyleBackColor = true;
@@ -80,9 +83,9 @@
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(40, 91);
+            this.dataGridView1.Location = new System.Drawing.Point(255, 85);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1221, 300);
+            this.dataGridView1.Size = new System.Drawing.Size(1006, 360);
             this.dataGridView1.TabIndex = 3;
             // 
             // contextMenuStrip1
@@ -116,7 +119,7 @@
             this.должныПройтиВЭтомГодуToolStripMenuItem,
             this.инфоПоПройденымКурсамToolStripMenuItem});
             this.оСотрудникахToolStripMenuItem.Name = "оСотрудникахToolStripMenuItem";
-            this.оСотрудникахToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.оСотрудникахToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.оСотрудникахToolStripMenuItem.Text = "О сотрудниках";
             // 
             // прошлиВЭтомМесяцеToolStripMenuItem
@@ -142,9 +145,10 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(532, 41);
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.button4.Location = new System.Drawing.Point(36, 344);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(120, 23);
+            this.button4.Size = new System.Drawing.Size(147, 60);
             this.button4.TabIndex = 6;
             this.button4.Text = "Обновить";
             this.button4.UseVisualStyleBackColor = true;
@@ -158,9 +162,9 @@
             "Курсы",
             "Сотрудники",
             "Сведения о прохождении курсов"});
-            this.comboBox1.Location = new System.Drawing.Point(1008, 42);
+            this.comboBox1.Location = new System.Drawing.Point(248, 41);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(253, 21);
+            this.comboBox1.Size = new System.Drawing.Size(1013, 21);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.Text = "Курсы";
             this.comboBox1.ValueMember = "0";
@@ -170,6 +174,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1319, 471);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button4);

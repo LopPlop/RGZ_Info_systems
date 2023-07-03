@@ -25,7 +25,7 @@ namespace RGZ_Info_systems.Controllers
                 string proc = "[dbo].[UpdCourse]";
                 SqlCommand sqlCommand = new SqlCommand(proc, connection);
                 sqlCommand.CommandType = CommandType.StoredProcedure;
-                var par0 = new SqlParameter("c_id", course.Id);
+                var par0 = new SqlParameter("@c_id", course.Id);
                 var par1 = new SqlParameter("@name", course.Name);
                 var par2 = new SqlParameter("@duration", course.Duration);
                 var par3 = new SqlParameter("@purpose", course.Purpose);
